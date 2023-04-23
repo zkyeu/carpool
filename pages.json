@@ -1,0 +1,75 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [{
+      "path": "pages/publish/publish",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    }, {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "", // 头部导航文字
+        "navigationStyle": "custom" // 去掉头部导航
+        // "disableScroll": true
+
+      }
+    },
+    // {
+    //   "path": "pages/publish/publish",
+    //   "style": {
+    //     "navigationBarTitleText": "",
+    //     "navigationStyle": "custom"
+    //   }
+    // },
+    {
+      "path": "pages/ucenter/ucenter",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+        // "transparentTitle": "always",
+        // "type": "transparent"
+      }
+
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "carpool",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "titleNView": false
+    }
+  },
+  // "tabBar": {
+  //   "color": "#7A7E83",
+  //   "selectedColor": "#3861e3",
+  //   "borderStyle": "black",
+  //   "backgroundColor": "#fff",
+  //   "fontSize": "12px",
+  //   "list": [{
+  //       "pagePath": "pages/index/index",
+  //       "iconPath": "static/imgs/component.png",
+  //       "selectedIconPath": "static/imgs/component.png",
+  //       "text": "首页"
+  //     },
+  //     {
+  //       "pagePath": "pages/publish/publish",
+  //       "iconPath": "static/imgs/logo.png",
+  //       "selectedIconPath": "static/imgs/logo.png",
+  //       "text": "发布"
+  //     },
+  //     {
+  //       "pagePath": "pages/ucenter/ucenter",
+  //       "iconPath": "static/imgs/arrow.png",
+  //       "selectedIconPath": "static/imgs/component.png",
+  //       "text": "我的"
+  //     }
+  //   ]
+  // },
+  "uniIdRouter": {}
+}

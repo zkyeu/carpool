@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <title>趣拼车</title>
+    <meta name="keywords" content="拼车,拼车小程序,拼车回家,拼个车,一起拼车">
+    <meta name="description" content="趣拼车是一款拼车的小程序,可以结伴拼车回家,拼车方便经济,是一种非常经济的出行方式,选择趣拼车,欢乐奔向目的地。">
+    <!--preload-links-->
+    <!--app-context-->
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

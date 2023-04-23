@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/publish/publish",
+    "pages/index/index",
+    "pages/ucenter/ucenter"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "carpool",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
